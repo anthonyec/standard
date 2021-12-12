@@ -1,5 +1,5 @@
 {
-  "name": "standard",
+  "name": "@anthonyec/standard",
   "version": "0.0.1",
   "description": "",
   "main": "dist/umd/index.min.js",
