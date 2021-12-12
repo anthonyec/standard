@@ -1,0 +1,11 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true
+  },
+  "paths": {
+    "tslib" : ["./node_modules/tslib/tslib.d.ts"]
+  }
+}

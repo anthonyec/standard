@@ -1,0 +1,30 @@
+{
+  "name": "standard",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/umd/index.min.js",
+  "module": "dist/es/index.js",
+  "types": "dist/standard.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyec/standard.git"
+  },
+  "keywords": [],
+  "author": "Anthony Cossins",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "rollup": "^2.61.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.3"
+  }
+}
